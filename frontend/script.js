@@ -1,6 +1,6 @@
 async function carregarDados() {
 
-    const url = "https://orange-space-rotary-phone-v6xpr747944jfwq7r-5500.app.github.dev/frontend/";
+    const url = "https://orange-space-rotary-phone-v6xpr747944jfwq7r-3000.app.github.dev/";
 
     const resposta = await fetch(url);
 
