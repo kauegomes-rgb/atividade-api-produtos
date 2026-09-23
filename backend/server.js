@@ -6,11 +6,23 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const produto = {
+const produto = [
+    {
     nome: "Mouse Gamer",
     preco: 150,
     categoria: "Periféricos"
-};
+    },
+    {
+        nome: "Webcam Full HD",
+        preco: 180,
+        categoria: "Acessórios"
+    },
+    {
+        nome: "Caixa de Som Bluetooth",
+        preco: 200,
+        categoria: "Áudio"
+    }
+];
 
 app.get("/", (req, res) => {
     res.json(produto);
